@@ -1,0 +1,105 @@
+.header {
+    background-color: rgba(220, 145, 27, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    position: relative;
+    min-height: 687px;
+}
+
+.header__menu {
+    padding: 17px 360px 0 360px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header__logo {
+    height: 74.83999633789062px;
+    width: 191.77999877929688px;
+    margin-right: 65.22px;
+}
+
+.header__links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 27px 0 0 0;
+    margin: 0;
+}
+
+.header__link {
+    margin-left: 42px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header__link:hover {
+    cursor: pointer;
+}
+
+.header__link:first-of-type {
+    margin-left: 0;
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 67px;
+}
+
+.header__phone {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2D2D2D;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.header__button {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    border-bottom: dashed 1px #2D2D2D;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header__title {
+    width: 448px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 192.16px 0px 259px 360px;
+}
+.header__image-background {
+    position: absolute;
+    left: 755px;
+    top: 81px;
+}
+
+.header__image {
+    mix-blend-mode: multiply;
+    filter:  brightness(95%) contrast(85%) sepia(150%);
+}

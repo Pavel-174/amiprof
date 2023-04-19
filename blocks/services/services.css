@@ -1,0 +1,94 @@
+.services {
+    padding: 99px 0 0 0;
+}
+    
+.services__header {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.services__safety {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../../images/Vector\ 28.png);
+    background-position: left 0px bottom 0px;
+    background-repeat: no-repeat;
+}
+
+.services__image_safety {
+    margin: 60px 141.31px 0px 362px ;
+    Width: 388.24px;
+    Height: 310.55px;
+}
+
+.services__content_safety {
+    margin-top: 135.16px;
+}
+
+.services__content-header{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.services__text {
+    margin: 34px 0 0 0;
+    padding: 0;
+    width: 575px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.services__button {
+    width: 166px;
+    height: 39px;
+    border-radius: 5px;
+    border: 1px solid #DC911B;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: white;;
+    cursor: pointer;
+    margin: 38px 0 0 409px;
+}
+
+.services__guard {
+    display: flex;
+    flex-direction: row;
+    padding: 102.5px 0 0 0;
+    margin: -2.5px;
+    background-image: url(../../images/Vector\ 25.png);
+    background-position: left 700px top 0px;
+    background-repeat: no-repeat;
+}
+
+.services__guard-content {
+    margin: 78.93px 179.02px 0 483px;
+}
+
+.services__teaching {
+    display: flex;
+    flex-direction: row;
+    padding: 102.5px 0 0 0;
+    margin: -2.5px;
+    background-image: url(../../images/Vector\ 26.png);
+    background-position: left 745px top 0px;
+    background-repeat: no-repeat;
+    min-height: 748.18px;
+}
