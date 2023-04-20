@@ -1,5 +1,8 @@
 .services {
     padding: 99px 0 0 0;
+    background-image: url(../../images/Vector\ 27.png);
+    background-position: left 130px bottom 140px;
+    background-repeat: no-repeat;
 }
     
 .services__header {
@@ -72,7 +75,7 @@
     display: flex;
     flex-direction: row;
     padding: 102.5px 0 0 0;
-    margin: -2.5px;
+    margin-top: -2.5px;
     background-image: url(../../images/Vector\ 25.png);
     background-position: left 700px top 0px;
     background-repeat: no-repeat;
@@ -86,11 +89,10 @@
     display: flex;
     flex-direction: row;
     padding: 102.5px 0 0 0;
-    margin: -2.5px;
     background-image: url(../../images/Vector\ 26.png);
     background-position: left 745px top 0px;
     background-repeat: no-repeat;
-    min-height: 748.18px;
+    min-height: 483.18px;
 }
 
 .services__image_teaching {
@@ -101,4 +103,25 @@
 
 .services__content_teaching {
     padding: 104.42px 0 0 0;
+}
+
+.services__training {
+    display: flex;
+    flex-direction: row;
+    padding: 99.55px 351px 0 487px;
+    background-image: url(../../images/Vector\ 29.png);
+    background-position: right 37px bottom 90px;
+    background-repeat: no-repeat;
+}
+
+.services__training-content {
+    margin-right: 74px;
+    margin-top: -132.167px;
+    min-height: 571.84px;
+}
+
+.services__training-image {
+    margin-top: -154.167px;
+    width: 388.24px;
+    height: 310.55px;
 }
