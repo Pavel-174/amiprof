@@ -1,0 +1,92 @@
+.projects__header {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 76.84px 0 0 462px;
+}
+
+.projects__list {
+    margin: 98.16px 0 0 462px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.projects__project {
+    display: flex;
+    flex-direction: row;
+    margin-top: 106px;
+}
+
+.projects__project:nth-child(1) {
+    margin-top: 0px;
+}
+
+.projects__header-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__project-header {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 146px 0 0 0;
+    margin: 0;    
+}
+
+.projects__date {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 106px 0 0 0;
+    margin: 0;
+    color: rgba(111, 111, 110, 1);
+}
+
+.projects__image {
+    margin-left: -185px;
+    z-index: -1;
+    height: 312px;
+    width: 556px;
+}
+
+.projects__text-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 59px;
+}
+
+.projects__text {
+   max-width: 228px;
+   padding-top: 155px;
+}
+
+.projects__button {
+    margin-left: 218px;
+}
+
+.projects__button-show {
+    background-image: url(../../images/Vector\ 30.png);
+    background-repeat: no-repeat;
+    background-position: right 0px center;
+    padding-right: 19.5px;
+    margin: 91.84px 0 0 1407px;
+    border: none;
+    background-color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+}
