@@ -1,0 +1,75 @@
+.reviews {
+    background-color: rgba(62, 62, 61, 1);
+    background-image: url(../../images/man.png);
+    background-position: right 293.62px bottom 141.18px;
+    background-repeat: no-repeat;
+    min-height: 758px;
+}
+
+.reviews__header {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 0px 0 0 564px;
+    padding: 125px;
+}
+
+.reviews__content-box {
+    margin: 0 0 0 276px;
+}
+
+.reviews__carusel {
+    display: flex;
+    flex-direction: row;
+    gap: 47px;
+    padding: 0;
+    margin: 0;
+}
+
+.reviews__button {
+    width:34px;
+    height: 34px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin: 37.84px 0 0 0;
+}
+
+.reviews__button:hover {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(220, 145, 27, 1);
+    background-image: url(../../images/Vector\ 11.png);
+}
+
+.reviews__button_left {
+    background-image: url(../../images/Vector\ 14.png);
+    background-color: rgba(196, 196, 196, 1);
+    margin-left: 384px;
+}
+
+.reviews__button_right {
+    background-image: url(../../images/Vector\ 13.png);
+    background-color: rgba(220, 145, 27, 1);
+    margin-right: 224px;
+}
+
+.reviews__button_left:hover {
+    transform: rotate(180deg);
+}
+
+.reviews__button-show {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(62, 62, 61, 1);
+    color: rgba(255, 255, 255, 1);
+}
