@@ -1,7 +1,7 @@
 .services {
-    padding: 99px 0 0 0;
+    padding: 99px 0 206.97px 0;
     background-image: url(../../images/Vector\ 27.png);
-    background-position: left 130px bottom 140px;
+    background-position: left 130px bottom 65px;
     background-repeat: no-repeat;
 }
     
@@ -66,9 +66,14 @@
     line-height: 17px;
     letter-spacing: 0em;
     text-align: center;
-    background-color: white;;
+    background-color: #FFFFFF;;
     cursor: pointer;
     margin: 38px 0 0 409px;
+}
+
+.services__button:hover {
+    color: #FFFFFF;
+    background-color: #DC911B;;
 }
 
 .services__guard {
@@ -88,11 +93,10 @@
 .services__teaching {
     display: flex;
     flex-direction: row;
-    padding: 102.5px 0 0 0;
+    padding: 102.5px 0 99.55px 0;
     background-image: url(../../images/Vector\ 26.png);
     background-position: left 745px top 0px;
     background-repeat: no-repeat;
-    min-height: 483.18px;
 }
 
 .services__image_teaching {
@@ -108,20 +112,19 @@
 .services__training {
     display: flex;
     flex-direction: row;
-    padding: 99.55px 351px 0 487px;
+    padding: 0px 351px 0 487px;
     background-image: url(../../images/Vector\ 29.png);
-    background-position: right 37px bottom 90px;
+    background-position: right 37px bottom -193px;
     background-repeat: no-repeat;
 }
 
 .services__training-content {
     margin-right: 74px;
-    margin-top: -132.167px;
-    min-height: 571.84px;
+    padding-top: 14px;
 }
 
 .services__training-image {
-    margin-top: -154.167px;
     width: 388.24px;
     height: 310.55px;
+    padding-top: 14px;
 }
