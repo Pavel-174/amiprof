@@ -1,0 +1,18 @@
+.clients__header {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 57px 0 0 565px;
+}
+
+.clients__content-box {
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-template-rows: 60px 60px;
+    column-gap: 80px;
+    row-gap: 120px;
+    margin: 120px 402px 93px 358px
+}
