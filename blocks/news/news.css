@@ -1,0 +1,82 @@
+.news {
+    background-image: url(../../images/person.png);
+    background-repeat: no-repeat;
+    background-position: left 319px top 150.83px;
+    min-height: 332.34px;
+    margin: 205.66px 0 55.16px 0;
+}
+
+.news__box {
+    display: flex;
+    flex-direction: row;
+}
+
+.news__header {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 189px;
+    margin: 0 0 0 368px;
+    padding-right: 48px;
+}
+
+.news__content-box {
+    max-width: 228px;
+    max-height: 247px;
+    padding: 0 50px;
+}
+
+.news__content-box:nth-child(4) {
+    border-left: 1px solid rgba(177, 177, 176, 1);
+}
+
+.news__content-header {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.news__date {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.news__text {
+    margin: 0;
+    padding: 16px 0 23px 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.news__button {
+    margin: 0;
+}
+
+.news__button-show {
+    margin: 53.5px 0 0 1407px;
+    background-color: transparent;
+    border: none;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+}
