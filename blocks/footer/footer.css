@@ -1,0 +1,197 @@
+.footer {
+    background-color: rgba(62, 62, 61, 1);
+    padding-top: 30px;
+}
+
+.footer__columns {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.footer__column_news {
+    margin: 0 159px 0 360px;
+}
+
+.footer__column_catalog {
+    margin: 0 193px 0 0;
+}
+
+.footer__header {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.footer__header_contacts {
+    margin-right: 184px;
+}
+
+.footer__list {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    list-style-type: none;
+    padding: 15px 0 0 0;
+    margin: 0;
+    color: rgba(119, 126, 137, 1);
+}
+
+.footer__link {
+    cursor: pointer;
+}
+
+.footer__search {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 3px;
+  width: 420px;
+  height: 41px;
+}
+  
+.footer__search-button {
+  background-image: url(../../images/search.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 15px;
+  height: 15px;
+  margin: 14px 14px 14px 0;
+  order: -1;
+  cursor: pointer;
+}
+  
+.footer__search-field {
+  width: 391px;
+  border: 0; 
+  background-color: transparent;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-indent: 10px;
+  color: rgba(218, 218, 218, 1);
+}
+  
+.footer__search-field:focus {
+  outline: none;
+}
+
+.footer__contact {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    min-height: 20px;
+}
+
+.footer__contact_post {
+    background-image: url(../../images/email.png);
+    background-repeat: no-repeat;
+    background-position: top 2px left 0;
+    padding-left: 26px;
+}
+
+.footer__contact_city {
+    background-image: url(../../images/map.png);
+    background-repeat: no-repeat;
+    background-position: top 0px left 0;
+    padding-left: 26px;
+    padding-bottom: 2px;
+}
+
+.footer__contact_phone {
+    background-image: url(../../images/phone.png);
+    background-repeat: no-repeat;
+    background-position: top 0px left 0;
+    padding-left: 26px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer__contact-box {
+    margin-top: 30px;
+}
+
+.footer__contact-box:nth-child(2) {
+    margin-top: 22px;
+}
+
+.footer__box {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__phone {
+    color: rgba(255, 255, 255, 1);
+    padding: 0px;
+}
+
+.footer__phone-box {
+    margin: 28px 0 0 104px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__button-phone {
+    min-height: 41px;
+    border-radius: 3px;
+    background-color: #FD9913;
+    border: none;
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer__button-phone:hover {
+    background-color: transparent;
+    border: #FD9913 1px solid;
+    color: #FD9913;
+}
+
+.footer__row_copyright {
+    display: flex;
+    flex-direction: row;
+    margin: 55px 360px 0 360px;
+    padding: 55px 0;
+    border-top: 1px solid rgba(119, 126, 137, 1);
+}
+
+.footer__copyright {
+    margin: 3px 288px 0 2px;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(119, 126, 137, 1);
+}
+
+.footer__logo {
+    width: 100px;
+    height: 25px;
+}
